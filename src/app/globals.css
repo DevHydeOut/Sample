@@ -2,26 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #E0E1DB
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+    /* Colors */
+    --bg-color-first: #4B5E65;
+    --bg-color-second: #B7BCB8;
+    --second-color: #E0E1DB;
+    --text-color: #121212;
+    --h-text-color: #B7BCB8;
+
+    /* Dimenstion */
+    --width: 1200px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+body{
+    background-color: var(--bg-color-first);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h1, h2, h3, h4, h5, h6{
+    color: var(--text-color);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.boxShadow{
+    box-shadow: -5px 5px 9px #3f3f3f, 5px 5px 7px #121212;
+}
+
+.innerShadow{
+    box-shadow: inset -5px 5px 9px #ffffff73, inset 5px 5px 7px #5e687949;
+}
+
+.oShadow{
+    box-shadow: -5px 5px 9px #ffffff73, 5px 5px 7px #5e687949;
+}
+
+.ishadow{
+    box-shadow: inset -5px 5px 9px #ffffff73, inset 5px 5px 7px #5e687949;
+}
+
+.oShadow2 {
+    box-shadow: -2px -2px 8px #a0a0a0, 4px 4px 6px #121212;
+}
+
+.oShadow2:hover{
+    box-shadow: 4px 4px 6px #121212;
 }

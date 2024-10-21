@@ -57,3 +57,12 @@ h1, h2, h3, h4, h5, h6{
 .oShadow2:hover{
     box-shadow: 4px 4px 6px #121212;
 }
+
+label,
+input,
+select,
+option,
+textarea{
+    font-size: 14px;
+}
+

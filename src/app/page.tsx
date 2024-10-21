@@ -34,7 +34,7 @@ export default function Home() {
       <div className="w-[1400px]">
         <div className="w-[100%] py-2 flex justify-between items-center">
           <h6 className="text-[24px] font-[500] ">Dashboard</h6>
-          <div className="w-[25%] flex justify-between">
+          <div className="mr-6 w-[30%] flex justify-between">
             <a href="" className="bg-[#E0E1DB] text-[#121212] px-4 py-1 rounded-3xl oShadow2 text-xs hover:text-[#64CBBE] hover:bg-[#0000] border border-transparent hover:border-[#64CBBE]">
               Graph Dashboard
             </a>

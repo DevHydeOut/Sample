@@ -31,7 +31,7 @@ export default function Home() {
           <SideBar />
         </div>
       </div>
-      <div className="w-[1400px]">
+      <div className="w-[80%]">
         <div className="w-[100%] py-2 flex justify-between items-center">
           <h6 className="text-[24px] font-[500] ">Dashboard</h6>
           <div className="mr-6 w-[30%] flex justify-between">

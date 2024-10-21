@@ -1,5 +1,6 @@
 
 import SideBar from '@/components/app-sidebar'
+import { TableDemo } from '@/components/table'
 import React from 'react'
 
 
@@ -303,6 +304,7 @@ export default function page() {
 
         <div className="mt-4 w-[100%] boxShadow rounded-[20px] p-2 bg-[#E0E1DB]">
           <div className="h-[100%] p-2 rounded-[20px] innerShadow flex flex-col justify-between items-center px-6">
+            <TableDemo />
           </div>
         </div>
 
